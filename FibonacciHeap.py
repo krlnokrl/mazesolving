@@ -10,7 +10,9 @@ class FibHeap:
             self.mark = False
             self.parent = self.child = None
             self.previous = self.next = self
-
+			
+			
+		
         def issingle(self):
             return self == self.next
 
